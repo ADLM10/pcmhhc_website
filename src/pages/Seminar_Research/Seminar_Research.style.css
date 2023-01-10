@@ -1,0 +1,8 @@
+.seminarParent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #C7A2A2;
+    height: 80vh;
+    /* padding: ; */
+}

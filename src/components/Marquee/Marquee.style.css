@@ -1,0 +1,8 @@
+.marqueeParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    height: 4vh;
+    margin: 5px 20px;
+}

@@ -1,0 +1,24 @@
+.text-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin: 20px 40px;
+}
+
+.containerHeading{
+    margin: 0;
+    font-family: 'Alegreya', sans-serif ;
+    font-size: 2rem ;
+    font-weight: 700 ;
+    text-transform: uppercase ;
+    color: #000000 ;
+}
+
+.containerDescription{
+    margin: 0;
+    font-family: 'Inter', sans-serif ;
+    font-size: 1rem ;;
+    font-weight: 400 ;;
+    color: #0F0E57 ;;
+}
