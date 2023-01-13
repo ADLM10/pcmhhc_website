@@ -1,7 +1,6 @@
 import React from 'react'
 import './PhotoGallery.style.css'
 import { PictureLink } from './PictureLink.js'
-import { Link } from 'react-router-dom'
 
 const PhotoZoom = () => {
     return (
@@ -10,7 +9,7 @@ const PhotoZoom = () => {
                 <div class="content">
                 <img src={item.src} alt={item.alt} />
                     <div class="title">{item.description}</div>
-                    <Link to="/photo-gallery"class="close" ></Link>
+                    <a href="#gallery" class="close" ></a>
                 </div>
             </div>
         ))

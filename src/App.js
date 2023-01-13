@@ -10,6 +10,7 @@ import AboutUs from './pages/AboutUs/AboutUs';
 import Academics from './pages/Academics/Academics';
 import StudentService from './pages/StudentService/StudentService';
 import Hospital from './pages/Hospital/Hospital';
+import Contact from './pages/Contact/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -22,7 +23,6 @@ function App() {
         <Marquee />
       </div>
       <div className="heroSection">
-        
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/home" element={<Home/>} />
@@ -34,13 +34,8 @@ function App() {
             <Route path="/academics" element={<Academics/>} />
             <Route path="/student-service" element={<StudentService/>} />
             <Route path="/hospital" element={<Hospital/>} />
+            <Route path="/contact" element={<Contact/>} />
           </Routes>
-          
-        {/* <Home /> */}
-        {/* <Finance /> */}
-        {/* <SeminarResearch /> */}
-        {/* <PhotoGallery /> */}
-        {/* <AboutUs /> */}
       </div>
       </Router>
     </div>

@@ -40,7 +40,7 @@ export const navLinks = [
         title: "Hospital",
     },
     {
-        id: "contact us",
+        id: "contact",
         title: "Contact Us",
     },
 ];

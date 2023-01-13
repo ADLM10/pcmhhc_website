@@ -3,7 +3,7 @@ import './HeroContainer.style.css'
 
 const HeroContainer = (props) => {
   return (
-    <div class="heroContainer" style={{backgroundColor:props.bgColor}}>
+    <div className="heroContainer" style={{backgroundColor:props.bgColor , width:props.width}}>
       {props.children}
     </div>
   )
