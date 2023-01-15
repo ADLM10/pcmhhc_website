@@ -6,7 +6,6 @@ import Home from './pages/Home/Home';
 import Finance from './pages/Finance/Finance';
 import SeminarResearch from './pages/Seminar_Research/Seminar_Research';
 import PhotoGallery from './pages/PhotoGallery/PhotoGallery';
-// import AboutUs from './pages/AboutUs/AboutUs';
 import Academics from './pages/Academics/Academics';
 import StudentService from './pages/StudentService/StudentService';
 import Hospital from './pages/Hospital/Hospital';

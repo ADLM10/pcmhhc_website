@@ -3,10 +3,9 @@ import './Academics.style.css'
 import PageNav from '../../components/PageNav/PageNav'
 import SectionContainer from '../../components/SectionContainer/SectionContainer'
 import HeroContainer from '../../components/HeroContainer/HeroContainer'
-import TextContainer from '../../components/TextContainer/TextContainer.jsx'
 import { AcademicsNavLinks } from './AcademicsNavLinks'
 
-const Academics = () => {
+const Academics = (props) => {
   return (
     <SectionContainer 
       children={
@@ -16,59 +15,9 @@ const Academics = () => {
             containerColor="#A2ECFC"
           />
           <HeroContainer
-            bgColor="#A2ECFC">
-            <TextContainer
-              heading="MEMBERS OF BOARD OF TRUST"
-              description="1. Prof. Dr. Ranjit Chakrabarty - Chairman
-                       2. Mr. Arup Chandra - Secretary
-                       3. Mr. Pracheta Mazumdar - Member
-                       4. Prof. (Dr.) Bidhu Bhushan Jana - Member
-                       5. Dr. Manindra Kumar Biswas - Member
-                       6. Prof (Dr.) Nidan Betal - Invitee Member
-                       7. Prof (Dr.) Labanya Bikas Mondal - Invitee Member"
+            bgColor="#A2ECFC"
+            children={props.child}
             />
-            <TextContainer
-              heading="MEMBERS OF BOARD OF TRUST"
-              description="1. Prof. Dr. Ranjit Chakrabarty - Chairman
-                       2. Mr. Arup Chandra - Secretary
-                       3. Mr. Pracheta Mazumdar - Member
-                       4. Prof. (Dr.) Bidhu Bhushan Jana - Member
-                       5. Dr. Manindra Kumar Biswas - Member
-                       6. Prof (Dr.) Nidan Betal - Invitee Member
-                       7. Prof (Dr.) Labanya Bikas Mondal - Invitee Member"
-            />
-            <TextContainer
-              heading="MEMBERS OF BOARD OF TRUST"
-              description="1. Prof. Dr. Ranjit Chakrabarty - Chairman
-                       2. Mr. Arup Chandra - Secretary
-                       3. Mr. Pracheta Mazumdar - Member
-                       4. Prof. (Dr.) Bidhu Bhushan Jana - Member
-                       5. Dr. Manindra Kumar Biswas - Member
-                       6. Prof (Dr.) Nidan Betal - Invitee Member
-                       7. Prof (Dr.) Labanya Bikas Mondal - Invitee Member"
-            />
-            <TextContainer
-              heading="MEMBERS OF BOARD OF TRUST"
-              description="1. Prof. Dr. Ranjit Chakrabarty - Chairman
-                       2. Mr. Arup Chandra - Secretary
-                       3. Mr. Pracheta Mazumdar - Member
-                       4. Prof. (Dr.) Bidhu Bhushan Jana - Member
-                       5. Dr. Manindra Kumar Biswas - Member
-                       6. Prof (Dr.) Nidan Betal - Invitee Member
-                       7. Prof (Dr.) Labanya Bikas Mondal - Invitee Member"
-            />
-            <TextContainer
-              heading="MEMBERS OF BOARD OF TRUST"
-              description="1. Prof. Dr. Ranjit Chakrabarty - Chairman
-                       2. Mr. Arup Chandra - Secretary
-                       3. Mr. Pracheta Mazumdar - Member
-                       4. Prof. (Dr.) Bidhu Bhushan Jana - Member
-                       5. Dr. Manindra Kumar Biswas - Member
-                       6. Prof (Dr.) Nidan Betal - Invitee Member
-                       7. Prof (Dr.) Labanya Bikas Mondal - Invitee Member"
-            />
-          </HeroContainer>
-          
         </>
       }
       // bgColor="#000000"

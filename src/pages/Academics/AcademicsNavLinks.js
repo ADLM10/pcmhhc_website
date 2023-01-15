@@ -1,30 +1,30 @@
 export const AcademicsNavLinks = [
     {
-        id: 1,
+        id: "departments",
         title: "Departments",
     },
     {
-        id: 2,
+        id: "teaching-faculties",
         title:"teaching faculties"
     },
     {
-        id: 3,
+        id: "non-teaching-faculties",
         title:"non-teaching faculties"
     },
     {
-        id: 4,
+        id: "courses",
         title:"courses"
     },
     {
-        id: 5,
+        id: "admission",
         title:"admission"
     },
     {
-        id: 6,
+        id: "award-achievements",
         title:"award & achievements"
     },
     {
-        id: 7,
+        id: "journal-publications",
         title:"journal & publications"
     }
 ]
