@@ -11,6 +11,9 @@ import Academics from './pages/Academics/Academics';
 import StudentService from './pages/StudentService/StudentService';
 import Hospital from './pages/Hospital/Hospital';
 import Contact from './pages/Contact/Contact';
+import BoardTrust from './pages/AboutUs/Routes/BoardTrust';
+import LocalManagingCommittee from './pages/AboutUs/Routes/LocalManagingCommittee';
+import AdministrativeStaff from './pages/AboutUs/Routes/AdministrativeStaff';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -30,11 +33,14 @@ function App() {
             <Route path="/seminars" element={<SeminarResearch/>} />
             <Route path="/research" element={<SeminarResearch/>} />
             <Route path="/photo-gallery" element={<PhotoGallery/>} />
-            <Route path="/about-us" element={<AboutUs/>} />
+            <Route path="/about-us" element={<BoardTrust/>} />
             <Route path="/academics" element={<Academics/>} />
             <Route path="/student-service" element={<StudentService/>} />
             <Route path="/hospital" element={<Hospital/>} />
             <Route path="/contact" element={<Contact/>} />
+            <Route path="/about-us/board-trust-members" element={<BoardTrust/>} />
+            <Route path="/about-us/local-managing-committee" element={<LocalManagingCommittee/>} />
+            <Route path="/about-us/administrative-staff" element={<AdministrativeStaff/>} />
           </Routes>
       </div>
       </Router>

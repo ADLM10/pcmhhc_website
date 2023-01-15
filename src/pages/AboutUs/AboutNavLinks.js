@@ -1,38 +1,38 @@
 export const AboutNavLinks = [
     {
-        id: 1,
+        id: "board-trust-members",
         title: "Members of board of trust",
     },
     {
-        id: 2,
+        id: "local-managing-committee",
         title:"members of local managing committee"
     },
     {
-        id: 3,
+        id: "administrative-staff",
         title:"administrative staff"
     },
     {
-        id: 4,
+        id: "university-officials",
         title:"university officials"
     },
     {
-        id: 5,
+        id: "chairman-message",
         title:"chairman message"
     },
     {
-        id: 6,
+        id: "secretary-message",
         title:"secretary message"
     },
     {
-        id: 7,
+        id: "principal-message",
         title:"principal message"
     },
     {
-        id: 8,
+        id: "history",
         title:"history"
     },
     {
-        id: 9,
+        id: "vision-and-mission",
         title:"Vision and mission"
     },
 ]

@@ -5,11 +5,11 @@ import { PictureLink } from './PictureLink.js'
 const PhotoZoom = () => {
     return (
         PictureLink.map((item) => (
-            <div class="lightbox" id={`lightbox-${item.id}`}>
-                <div class="content">
+            <div className="lightbox" id={`lightbox-${item.id}`}>
+                <div className="content">
                 <img src={item.src} alt={item.alt} />
                     <div class="title">{item.description}</div>
-                    <a href="#gallery" class="close" ></a>
+                    <a href={`#${item.id}`} className="close" ></a>
                 </div>
             </div>
         ))
@@ -19,12 +19,12 @@ const PhotoZoom = () => {
 
 const PhotoGallery = () => {
     return (
-        <div class="photoGalleryParent">
+        <div className="photoGalleryParent">
             <div id="gallery">
                 {
                     PictureLink.map((item) => (
 
-                        <div key={item.id}><img src={item.src} alt={item.alt} />
+                        <div key={item.id}><img src={item.src} alt={item.alt} id={item.id}/>
                             <a href={`#lightbox-${item.id}`}>
                             </a>
                         </div>
