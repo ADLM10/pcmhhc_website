@@ -21,7 +21,7 @@ const AdministrativeStaff = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="text-container">
+                        <div className="text-container" style={{height:"270px"}}>
                             <h3>{member.name}</h3>
                             <h4>{member.position}</h4>
                             <div>
@@ -33,7 +33,6 @@ const AdministrativeStaff = () => {
             }
             </div>
         } />
-
     )
 }
 

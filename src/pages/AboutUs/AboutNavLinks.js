@@ -32,7 +32,7 @@ export const AboutNavLinks = [
         title:"history"
     },
     {
-        id: "vision-and-mission",
+        id: "vision-mission",
         title:"Vision and mission"
     },
 ]
