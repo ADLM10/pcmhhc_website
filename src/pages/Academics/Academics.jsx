@@ -13,6 +13,7 @@ const Academics = (props) => {
           <PageNav navHeading="Academics" navLinks={AcademicsNavLinks}
             bgColor="#FFFFFF" textColor="#411010"
             containerColor="#A2ECFC"
+            pagePath="academics"
           />
           <HeroContainer
             bgColor="#A2ECFC"

@@ -3,10 +3,10 @@ import PageNav from '../../components/PageNav/PageNav'
 import { ServiceNavLinks } from './ServiceNavLinks'
 import SectionContainer from '../../components/SectionContainer/SectionContainer'
 import HeroContainer from '../../components/HeroContainer/HeroContainer'
-import TextContainer from '../../components/TextContainer/TextContainer.jsx'
 
 
-const StudentService = () => {
+const StudentService = (props) => {
+  console.log(props.detailsList);
   return (
     <SectionContainer 
     children={
@@ -14,19 +14,11 @@ const StudentService = () => {
         <PageNav navHeading="Student's Service" navLinks={ServiceNavLinks}
           bgColor="#FFFFFF" textColor="#411010"
           containerColor="#A2ECFC"
+          pagePath="student-service"
         />
         <HeroContainer
           bgColor="#A2ECFC">
-          <TextContainer
-            heading="MEMBERS OF BOARD OF TRUST"
-            description="1. Prof. Dr. Ranjit Chakrabarty - Chairman
-                     2. Mr. Arup Chandra - Secretary
-                     3. Mr. Pracheta Mazumdar - Member
-                     4. Prof. (Dr.) Bidhu Bhushan Jana - Member
-                     5. Dr. Manindra Kumar Biswas - Member
-                     6. Prof (Dr.) Nidan Betal - Invitee Member
-                     7. Prof (Dr.) Labanya Bikas Mondal - Invitee Member"
-          />
+          {props.child}
         </HeroContainer>
       </>
     }

@@ -1,62 +1,62 @@
 export const ServiceNavLinks = [
     {
-        id: 1,
+        id: "library",
         title: "LIBRARY",
     },
     {
-        id: 2,
+        id: "laboratories",
         title:"LABORATORIES"
     },
     {
-        id: 3,
+        id: "sports",
         title:"SPORTS"
     },
     {
-        id: 4,
+        id: "scholarships",
         title:"SCHOLARSHIPS"
     },
     {
-        id: 5,
+        id: "canteen",
         title:"CANTEEN"
     },
     {
-        id: 6,
+        id: "placements",
         title:"PLACEMENTS"
     },
     {
-        id: 7,
+        id: "anti-ragging-declaration",
         title:"DECLERATION OF ANTI-RAGGING, ANTI-SEXUAL-HARRASMENTS,AND ANTI-RACISM"
     },
     {
-        id: 8,
-        title:"MEMBERSOF ANTI-RAGGING, ANTI-SEXUAL-HARRASMENTS,AND ANTI-RACISM"
+        id: "anti-ragging-members",
+        title:"MEMBERS OF ANTI-RAGGING, ANTI-SEXUAL-HARRASMENTS,AND ANTI-RACISM"
     },
     {
-        id: 9,
+        id: "programs",
         title:"programs"
     },
     {
-        id: 10,
+        id: "common-room",
         title:"common room"
     },
     {
-        id: 11,
+        id: "students-union",
         title:"students union"
     },
     {
-        id: 12,
+        id: "tour",
         title:"tour"
     },
     {
-        id: 13,
+        id: "admitted-students",
         title:"admitted students(last five years)"
     },
     {
-        id: 14,
+        id: "internal-examination",
         title:"internal examination"
     },
     {
-        id: 15,
+        id: "results",
         title:"results (last year)"
     }
 

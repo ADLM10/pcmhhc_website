@@ -6,8 +6,6 @@ import Home from './pages/Home/Home';
 import Finance from './pages/Finance/Finance';
 import SeminarResearch from './pages/Seminar_Research/Seminar_Research';
 import PhotoGallery from './pages/PhotoGallery/PhotoGallery';
-import Academics from './pages/Academics/Academics';
-import StudentService from './pages/StudentService/StudentService';
 import Hospital from './pages/Hospital/Hospital';
 import Contact from './pages/Contact/Contact';
 import BoardTrust from './pages/AboutUs/Routes/BoardTrust';
@@ -16,6 +14,14 @@ import AdministrativeStaff from './pages/AboutUs/Routes/AdministrativeStaff';
 import MessageComponent from './pages/AboutUs/Routes/MessageComponent';
 import VisionMission from './pages/AboutUs/Routes/VisionMission';
 import UniversityOfficials from './pages/AboutUs/Routes/UniversityOfficials';
+import Departments from './pages/Academics/Routes/Departments';
+import DataCardComponent from './pages/Academics/Routes/DataCardComponent';
+import Library from './pages/StudentService/Routes/Library';
+import CollegeDetailsComponent from './pages/Academics/Routes/CollegeDetailsComponent';
+import Services from './pages/StudentService/Routes/Services';
+import { StudentServices } from './constants/StudentServices';
+import { CollegeDetails } from './constants/CollegeDetails';
+import { Staffs } from './constants/Staffs';
 import { Messages } from './constants/Messages';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -37,9 +43,9 @@ function App() {
             <Route path="/seminars" element={<SeminarResearch />} />
             <Route path="/research" element={<SeminarResearch />} />
             <Route path="/photo-gallery" element={<PhotoGallery />} />
+            <Route path="/student-service" element={<Library />} />
             <Route path="/about-us" element={<BoardTrust />} />
-            <Route path="/academics" element={<Academics />} />
-            <Route path="/student-service" element={<StudentService />} />
+            <Route path="/academics" element={<Departments />} />
             <Route path="/hospital" element={<Hospital />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about-us/board-trust-members" element={<BoardTrust />} />
@@ -55,6 +61,42 @@ function App() {
             }
             <Route path="/about-us/vision-mission" element={<VisionMission />} />
             <Route path="/about-us/university-officials" element={<UniversityOfficials />} />
+            <Route path="/academics/departments" element={<Departments />} />
+            {
+              Staffs.map((staff, index) => (
+                <Route
+                  key={staff.id}
+                  path={`/academics/${staff.id}`}
+                  element={<DataCardComponent
+                    Heading={staff.heading}
+                    StaffList={staff.staffs}
+                    StaffKey={staff.keys}
+                    Height={staff.height}
+                  />} />
+              ))
+            }
+            {
+              CollegeDetails.map((college, index) => (
+                <Route
+                  key={college.id}
+                  path={`/academics/${college.id}`}
+                  element={<CollegeDetailsComponent
+                    Heading={college.heading}
+                    detailsList={college.detailsList}
+                    />}/>
+              ))
+            }
+            {
+              StudentServices.map((service, index) => (
+                <Route
+                  key={service.id}
+                  path={`/student-service/${service.id}`}
+                  element={<Services
+                    Heading={service.heading}
+                    servicesList={service.servicesList}
+                  />} />
+              ))
+            }
           </Routes>
         </div>
       </Router>

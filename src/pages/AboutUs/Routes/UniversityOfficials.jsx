@@ -1,10 +1,13 @@
 import React from 'react'
 import AboutUs from '../AboutUs'
+import PageHeading from '../../../components/PageHeading/PageHeading'
 import { UniversityOfficialsMembers } from '../../../constants/UniversityOfficialsMembers'
 
 const UniversityOfficials = () => {
   return (
     <AboutUs child={
+      <>
+        <PageHeading heading="University Officials" />
         <div className="card-container">
           {UniversityOfficialsMembers.map((member, index) => (
             <div className="card" key={index}>
@@ -21,6 +24,7 @@ const UniversityOfficials = () => {
             </div>
           ))}
         </div>
+      </>
     } />
 
   )

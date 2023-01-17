@@ -7,18 +7,20 @@
 }
 
 .containerHeading{
+    text-align: center;
     margin: 0;
     font-family: 'Alegreya', sans-serif ;
     font-size: 2rem ;
     font-weight: 700 ;
     text-transform: uppercase ;
     color: #000000 ;
+    margin-bottom: 10px;
 }
 
 .containerDescription{
     margin: 0;
     font-family: 'Inter', sans-serif ;
     font-size: 1rem ;;
-    font-weight: 400 ;;
+    font-weight: 600 ;;
     color: #0F0E57 ;;
 }
