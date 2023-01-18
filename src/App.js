@@ -19,6 +19,9 @@ import DataCardComponent from './pages/Academics/Routes/DataCardComponent';
 import Library from './pages/StudentService/Routes/Library';
 import CollegeDetailsComponent from './pages/Academics/Routes/CollegeDetailsComponent';
 import Services from './pages/StudentService/Routes/Services';
+import HospitalDetailsComponent from './pages/Hospital/Routes/HospitalDetailsComponent';
+import HospitalStaff from './pages/Hospital/Routes/HospitalStaff';
+import { HospitalDetails } from './constants/HospitalDetails';
 import { StudentServices } from './constants/StudentServices';
 import { CollegeDetails } from './constants/CollegeDetails';
 import { Staffs } from './constants/Staffs';
@@ -46,7 +49,10 @@ function App() {
             <Route path="/student-service" element={<Library />} />
             <Route path="/about-us" element={<BoardTrust />} />
             <Route path="/academics" element={<Departments />} />
-            <Route path="/hospital" element={<Hospital />} />
+            <Route path="/hospital" element={<HospitalDetailsComponent
+              Heading={HospitalDetails[0].heading}
+              detailsList={HospitalDetails[0].detailsList}
+            />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about-us/board-trust-members" element={<BoardTrust />} />
             <Route path="/about-us/local-managing-committee" element={<LocalManagingCommittee />} />
@@ -97,6 +103,18 @@ function App() {
                   />} />
               ))
             }
+            {
+              HospitalDetails.map((hospital, index) => (
+                <Route
+                  key={hospital.id}
+                  path={`/hospital/${hospital.id}`}
+                  element={<HospitalDetailsComponent
+                    Heading={hospital.heading}
+                    detailsList={hospital.detailsList}
+                  />} />
+              ))
+            }
+            <Route path="/hospital/hospital-staff" element={<HospitalStaff />} />
           </Routes>
         </div>
       </Router>

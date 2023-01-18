@@ -1,26 +1,26 @@
 export const HospitalNavLinks = [
     {
-        id: 1,
+        id: "hospitalService",
         title: "hospital service",
     },
     {
-        id: 2,
+        id: "hospital-staff",
         title:"hospital staff"
     },
     {
-        id: 3,
+        id: "ipd",
         title:"ipd"
     },
     {
-        id: 4,
+        id: "opd",
         title:"opd"
     },
     {
-        id: 5,
+        id: "canteen-room",
         title:"canteen room"
     },
     {
-        id: 6,
+        id: "pharmacy",
         title:"pharmacy"
     }
 ]
