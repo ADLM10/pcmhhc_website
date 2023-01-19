@@ -1,9 +1,9 @@
-.heroContainer{
-    width: 80%;
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    border-radius: 15px;
+.heroContainer {
+  width: 80%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 15px;
 }

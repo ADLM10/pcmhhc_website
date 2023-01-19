@@ -1,9 +1,9 @@
-.sectionParent{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-    /* flex-wrap: wrap; */
-    gap: 10px;
-    /* background-color: black; */
+.sectionParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  /* flex-wrap: wrap; */
+  gap: 10px;
+  /* background-color: black; */
 }

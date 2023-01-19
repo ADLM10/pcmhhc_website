@@ -5,30 +5,30 @@
 }
 
 .img-container {
-    height: 230px;
-    width: 200px;
-    overflow: hidden;
-    border-radius: 0px 0px 20px 20px;
-    display: inline-block;
+  height: 230px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+  display: inline-block;
 }
 
 .inner-skew {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    overflow: hidden;
-    padding: 0px;
-    /* transform: skew(0deg, 13deg); */
-    font-size: 0px;
-    /* margin: 30px 0px 0px 0px; */
-    background: #c8c2c2;
-    height: 250px;
-    width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0px;
+  /* transform: skew(0deg, 13deg); */
+  font-size: 0px;
+  /* margin: 30px 0px 0px 0px; */
+  background: #c8c2c2;
+  height: 250px;
+  width: 200px;
 }
 
 .text-container {
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   padding: 120px 20px 20px 20px;
   border-radius: 20px;
   background: #fff;
@@ -44,7 +44,7 @@
   font-size: 18px;
 }
 
-.a-box-container{
+.a-box-container {
   width: 100%;
   flex-direction: row;
   /* gap:50px; */
@@ -55,7 +55,7 @@
   margin-top: 80px;
 }
 
-.circle-image-container{
+.circle-image-container {
   /* margin-top: 10px; */
   height: 150px;
   width: 150px;
@@ -68,7 +68,7 @@
   /* transform: skew(0deg, -13deg); */
 }
 
-.circle-image-container-inner{
+.circle-image-container-inner {
   height: 120px;
   width: 120px;
   border-radius: 50%;
@@ -80,14 +80,13 @@
   /* transform: skew(0deg, 13deg); */
 }
 
-.circle-image-container-inner img{
+.circle-image-container-inner img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-
 }
 
-.card-container{
+.card-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -99,7 +98,7 @@
   margin-top: 20px;
 }
 
-.card{
+.card {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -108,11 +107,11 @@
   width: 250px;
   height: 250px;
   border-radius: 20px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   margin: 10px;
 }
 
-.card-content{
+.card-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -125,26 +124,26 @@
   text-align: center;
 }
 
-.card-content h3{
+.card-content h3 {
   margin: 10px 0px;
   font-size: 18px;
   color: #04bcff;
 }
 
-.card-content p{
+.card-content p {
   word-wrap: normal;
   margin: 10px 0px;
   font-size: 14px;
   color: #000;
 }
 
-.card-content a{
+.card-content a {
   text-decoration: none;
   margin: 10px 0px;
   font-size: 14px;
   color: rgb(20, 39, 203);
 }
 
-.card-content a:hover{
+.card-content a:hover {
   text-decoration: underline;
 }

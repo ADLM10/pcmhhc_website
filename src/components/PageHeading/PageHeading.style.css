@@ -1,13 +1,13 @@
-.pageHeading{
-    display: flex;
-    font-family: 'Alegreya', sans-serif ;
-    font-size: 2.5rem ;
-    font-weight: 700 ;
-    text-transform: uppercase ;
-    color: #000000 ;
-    padding: 0px 40px;
-    word-wrap: normal;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0px;
+.pageHeading {
+  display: flex;
+  font-family: "Alegreya", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 0px 40px;
+  word-wrap: normal;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
 }

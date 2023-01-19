@@ -1,70 +1,70 @@
-.card-image-holder{
-    /* flex-wrap: wrap; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: auto;
-    /* background-color: aqua; */
-    padding: 10px;
-    gap: 20px;
+.card-image-holder {
+  /* flex-wrap: wrap; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  /* background-color: aqua; */
+  padding: 10px;
+  gap: 20px;
 }
 
-.contactImageContainer{
-    width:auto;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: #f5f5f5; */
-    /* padding: 20px; */
+.contactImageContainer {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f5f5f5; */
+  /* padding: 20px; */
 }
 .contactImageContainer img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
-.cardContainer{
-    /* flex-wrap: wrap; */
-    width: auto;
-    height: 90%;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+.cardContainer {
+  /* flex-wrap: wrap; */
+  width: auto;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
-.form-map-holder{
-    margin-top: 60px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 92vw;
-    /* background-color:yellow; */
-    align-items: center;
-    gap: 20px;
+.form-map-holder {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 92vw;
+  /* background-color:yellow; */
+  align-items: center;
+  gap: 20px;
 }
 
-.formContainer{
-    background-color: white;
-    border-radius: 10px;
-    border: 5px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    width: 50vw;
-    /* background-color: aqua; */
+.formContainer {
+  background-color: white;
+  border-radius: 10px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 50vw;
+  /* background-color: aqua; */
 }
 
-.formHeading{
-    font-family: 'Inter', sans-serif ;
-    font-size: 2rem;
-    font-weight: 800;
-    color: #000;
-    text-align: center;
-    margin-top:20px ;
-    /* margin-bottom: px; */
+.formHeading {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #000;
+  text-align: center;
+  margin-top: 20px;
+  /* margin-bottom: px; */
 }

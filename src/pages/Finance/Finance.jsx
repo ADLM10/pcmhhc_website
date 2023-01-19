@@ -8,7 +8,9 @@ const Finance = () => {
   return (
     <div className="FinanceParent">
       <PageHeading heading="Finance" />
-      <h2 style={{textAlign:"center"}}>IT IS MAINTAINED BY BOARD OF TRUST</h2>
+      <h2 style={{ textAlign: "center" }}>
+        IT IS MAINTAINED BY BOARD OF TRUST
+      </h2>
       <TextContainer
         heading={FinanceData[0].heading}
         description={FinanceData[0].description}

@@ -1,8 +1,7 @@
-import React from 'react'
-import PageHeading from '../../../components/PageHeading/PageHeading'
-import TextContainer from '../../../components/TextContainer/TextContainer'
-import StudentService from '../StudentService'
-
+import React from "react";
+import PageHeading from "../../../components/PageHeading/PageHeading";
+import TextContainer from "../../../components/TextContainer/TextContainer";
+import StudentService from "../StudentService";
 
 const Services = (props) => {
   return (
@@ -10,19 +9,17 @@ const Services = (props) => {
       child={
         <>
           <PageHeading heading={props.Heading} />
-          {
-            props.servicesList.map((item, index) => (
-              <TextContainer
-                key={index}
-                heading={item.heading}
-                description={item.description}
-              />
-            ))
-          }
+          {props.servicesList.map((item, index) => (
+            <TextContainer
+              key={index}
+              heading={item.heading}
+              description={item.description}
+            />
+          ))}
         </>
       }
     />
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

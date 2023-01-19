@@ -13,10 +13,14 @@ const DataCardComponent = (props) => {
       child={
         <>
           <PageHeading heading={props.Heading} />
-          <div className="card-container" >
+          <div className="card-container">
             {props.StaffList.map((member, index) => (
               <>
-                <div className="card" key={index} style={{ height: props.Height }}>
+                <div
+                  className="card"
+                  key={index}
+                  style={{ height: props.Height }}
+                >
                   <div className="card-image">
                     <div className="staff-image-container">
                       <img src={member.Photo} alt={member.Name} />
@@ -38,12 +42,12 @@ const DataCardComponent = (props) => {
                   </div>
                 </div>
                 {showModal && (
-              <DataModal
-                onClose={() => setShowModal((prev) => !prev)}
-                Data={modalData.current}
-                Keys={props.StaffKey}
-              />)
-            }
+                  <DataModal
+                    onClose={() => setShowModal((prev) => !prev)}
+                    Data={modalData.current}
+                    Keys={props.StaffKey}
+                  />
+                )}
               </>
             ))}
           </div>

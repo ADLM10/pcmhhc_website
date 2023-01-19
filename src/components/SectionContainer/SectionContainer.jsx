@@ -1,14 +1,15 @@
-import React from 'react'
-import './SectionContainer.style.css'
+import React from "react";
+import "./SectionContainer.style.css";
 
 const SectionContainer = (props) => {
   return (
     <section
       className="sectionParent"
-      style={{ backgroundColor: props.bgColor, }}>
+      style={{ backgroundColor: props.bgColor }}
+    >
       {props.children}
     </section>
-  )
-}
+  );
+};
 
-export default SectionContainer
+export default SectionContainer;

@@ -6,7 +6,8 @@ export const TeachingStaffMembers = [
     DepartmentJoiningDate: "Anatomy",
     Time: "Full Time",
     Qualification: "B.A., D.M.S. (Cal), B.H.M.S., M.D. (Hom.)",
-    AwardingAuthority:"B.A. - C.U\n D.M.S. - C.H.M.WB\n B.H.M.S. & M.D. - Bihar University",
+    AwardingAuthority:
+      "B.A. - C.U\n D.M.S. - C.H.M.WB\n B.H.M.S. & M.D. - Bihar University",
     DOB: "07.01.1955",
     RegdDetails: "Anatomy\n (3437) - 24/04/1976",
     RegdExp: "38 yrs. +",
@@ -19,7 +20,8 @@ export const TeachingStaffMembers = [
     DepartmentJoiningDate: "Materia Medica\n 02/05/1991",
     Time: "Full Time",
     Qualification: "D.M.S. (Cal)\n B.H.M.S. (Gr.) ,\n M.D. (Hom.)",
-    AwardingAuthority:"D.M.S. - C.H.M.WB\n B.H.M.S. (Gr.) - B.F.U.H.S., Punjab\n M.D. (Hom.) - Dr. B.R.A. University, Agra",
+    AwardingAuthority:
+      "D.M.S. - C.H.M.WB\n B.H.M.S. (Gr.) - B.F.U.H.S., Punjab\n M.D. (Hom.) - Dr. B.R.A. University, Agra",
     DOB: "07.10.1959",
     RegdDetails: "Materia Medica\n (9525) - 23/06/1985",
     " RegdExp": "32 Yrs. +",
@@ -191,7 +193,8 @@ export const TeachingStaffMembers = [
     DepartmentJoiningDate: "Pharmacy\n 13/11/2013",
     Time: "Full Time",
     Qualification: "B.H.M.S.\n M.D. (Hom.)",
-    AwardingAuthority:"B.H.M.S. - C.U.\n M.D. - W.B.U.H.S.\n (M.B.H.M.C. & H.)",
+    AwardingAuthority:
+      "B.H.M.S. - C.U.\n M.D. - W.B.U.H.S.\n (M.B.H.M.C. & H.)",
     DOB: "18.05.1978",
     RegdDetails: "Pharmacy\n 25061 - (2003)",
     " RegdExp": "9Yrs.",
@@ -217,7 +220,8 @@ export const TeachingStaffMembers = [
     DepartmentJoiningDate: "Physiology\n 20/12/2013",
     Time: "Full Time",
     Qualification: "B.H.M.S.\n M.D. (Hom.)",
-    AwardingAuthority:"B.Sc. (C.U.),\n D.M.S. (Cal),\n B.H.M.S. (Gr.)\n M.D. (Hom.)",
+    AwardingAuthority:
+      "B.Sc. (C.U.),\n D.M.S. (Cal),\n B.H.M.S. (Gr.)\n M.D. (Hom.)",
     DOB: "25.07.1961",
     RegdDetails: "COUNCIL OF HOM. MEDICINE, W.B.\n  \n 11412",
     " RegdExp":
@@ -436,6 +440,7 @@ export const TeachingStaffKey = [
   },
   {
     key: "RegdExp",
-    label:" Regd Experience in each Teaching Cadre & duration & Name of the Institute",
+    label:
+      " Regd Experience in each Teaching Cadre & duration & Name of the Institute",
   },
 ];

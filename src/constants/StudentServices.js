@@ -253,6 +253,25 @@ const AntiRagging = [
   },
 ];
 
+const admittedStudents = [
+  {
+    heading: "",
+    description: (
+      <p>
+        <img
+          style={{ width: "900px" }}
+          src={require("../assets/admittedStudents")}
+          alt="admittedstudents"
+        />
+        <a href="https://docs.google.com/spreadsheets/d/1ALQOmGomSWdm4rlTjcFWDKoTB5uAd4xWTVLV7l4FAvs/edit?usp=sharing">
+          <br />
+          Click here to view the list of admitted students
+        </a>
+      </p>
+    ),
+  },
+];
+
 export const StudentServices = [
   {
     id: "library",
@@ -324,5 +343,10 @@ export const StudentServices = [
     heading:
       "Declaration of anti-ragging, anti-sexual-harassments and anti-racism ",
     servicesList: AntiRagging,
+  },
+  {
+    id: "admitted-students",
+    heading: "admitted students(last five years)",
+    servicesList: admittedStudents,
   },
 ];

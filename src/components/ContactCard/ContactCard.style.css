@@ -11,50 +11,48 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.nameContainer{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 1.5rem;
-    color: #000;
-    margin-bottom: 10px;
+.nameContainer {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 10px;
 }
 
-.postContainer{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #000;
-    margin-bottom: 5px;
+.postContainer {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 5px;
 }
 
-.emailContainer{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: rgb(20, 39, 203);
-    margin-bottom: 5px;
-    text-decoration: none;
-    text-align: start;
+.emailContainer {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgb(20, 39, 203);
+  margin-bottom: 5px;
+  text-decoration: none;
+  text-align: start;
 }
 
-.emailContainer:hover{
-    color: rgb(20, 39, 203);
-    text-decoration: underline;
+.emailContainer:hover {
+  color: rgb(20, 39, 203);
+  text-decoration: underline;
 }
 
-.phoneContainer{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: rgb(20, 39, 203);
-    margin-bottom: 5px;
-    text-decoration: none;
-    text-align: start;
+.phoneContainer {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgb(20, 39, 203);
+  margin-bottom: 5px;
+  text-decoration: none;
+  text-align: start;
 }
 
-.phoneContainer:hover{
-    color: rgb(20, 39, 203);
-    text-decoration: underline;
+.phoneContainer:hover {
+  color: rgb(20, 39, 203);
+  text-decoration: underline;
 }
-
-

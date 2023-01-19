@@ -1,7 +1,7 @@
-.FinanceParent{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: #C7A2A2;
-    height: 100%;
+.FinanceParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #c7a2a2;
+  height: 100%;
 }

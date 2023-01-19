@@ -8,13 +8,15 @@ export const UniversityOfficialsMembers = [
   {
     Designation: "PRO VICE- CHANCELLOR",
     Name: "",
-    Fax_Phn:"(033) 2321-5381 (Fax) (033) 2321-3461 (O) Ext. 210 (033) 2334-6602 (O) Ext. 210 (033) 2321-5381 (F)",
+    Fax_Phn:
+      "(033) 2321-5381 (Fax) (033) 2321-3461 (O) Ext. 210 (033) 2334-6602 (O) Ext. 210 (033) 2321-5381 (F)",
     email: "pro.vc@wbuhs.ac.in",
   },
   {
     Designation: "REGISTRAR",
     Name: "Prof. (Dr.) Indrajit Gupta",
-    Fax_Phn:"033) 2321-3461 (O) Ext. 212 (033) 2334-6602 (O) Ext. 212 (033) 2321-3051 (D) (033) 2358-0100 (F)",
+    Fax_Phn:
+      "033) 2321-3461 (O) Ext. 212 (033) 2334-6602 (O) Ext. 212 (033) 2321-3051 (D) (033) 2358-0100 (F)",
     email: "registrar@wbuhs.ac.in",
   },
   {
@@ -54,7 +56,8 @@ export const UniversityOfficialsMembers = [
     email: "deputy.controller@wbuhs.ac.in",
   },
   {
-    Designation:"OSD - Planning, Development, Academics & Examinations affairs",
+    Designation:
+      "OSD - Planning, Development, Academics & Examinations affairs",
     Name: "Dr. Sujishnu Mukhopadhyay",
     Fax_Phn: "(033) 2321-3461 (O)",
     email: "osd_pdea@wbuhs.ac.in",

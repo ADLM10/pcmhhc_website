@@ -103,14 +103,26 @@ const IPD = [
 ];
 
 const Pharmacy = [
-    {
-        heading: "",
-        description: 
-        <p style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
-            <img style={{width: '900px'}} src={require('../assets/pharmacyHospital.jpg')} alt="Pharmacy" />
-        </p>
-    }
-]
+  {
+    heading: "",
+    description: (
+      <p
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column",
+        }}
+      >
+        <img
+          style={{ width: "900px" }}
+          src={require("../assets/pharmacyHospital.jpg")}
+          alt="Pharmacy"
+        />
+      </p>
+    ),
+  },
+];
 
 export const HospitalDetails = [
   {
@@ -133,9 +145,9 @@ export const HospitalDetails = [
     heading: "Canteen Room",
     detailsList: Canteen,
   },
-    {
-        id: "pharmacy",
-        heading: "Pharmacy",
-        detailsList: Pharmacy,
-    }
+  {
+    id: "pharmacy",
+    heading: "Pharmacy",
+    detailsList: Pharmacy,
+  },
 ];
