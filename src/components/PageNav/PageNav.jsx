@@ -4,7 +4,7 @@ import "./PageNav.style.css";
 import { Link } from "react-router-dom";
 
 const PageNav = (props) => {
-  const [activeButton, SetActiveButton] = useState(0);
+  const [activeButton, SetActiveButton] = useState(false);
 
   return (
     <div
@@ -21,12 +21,14 @@ const PageNav = (props) => {
               <Link
                 className="pageNavLink"
                 to={`/${props.pagePath}/${link.id}`}
-                style={{ color: props.textColor }}
+                // style={{ color: props.textColor }}
+                
               >
                 <button
+                  onClick={() => SetActiveButton((prev) => !prev) }
                   key={link.id}
-                  className="pageNavButton"
-                  style={{ backgroundColor: props.bgColor }}
+                  className= "pageNavButton"
+                  style={{ backgroundColor: props.bgColor, color: props.textColor }}
                 >
                   {link.title}
                 </button>

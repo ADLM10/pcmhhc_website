@@ -73,3 +73,7 @@
 .pageNavButton:hover {
   filter: invert(100%);
 }
+
+.active {
+  filter: invert(100%);
+}

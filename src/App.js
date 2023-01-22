@@ -6,7 +6,6 @@ import Home from "./pages/Home/Home";
 import Finance from "./pages/Finance/Finance";
 import SeminarResearch from "./pages/Seminar_Research/Seminar_Research";
 import PhotoGallery from "./pages/PhotoGallery/PhotoGallery";
-import Hospital from "./pages/Hospital/Hospital";
 import Contact from "./pages/Contact/Contact";
 import BoardTrust from "./pages/AboutUs/Routes/BoardTrust";
 import LocalManagingCommittee from "./pages/AboutUs/Routes/LocalManagingCommittee";
