@@ -22,13 +22,15 @@ const PageNav = (props) => {
                 className="pageNavLink"
                 to={`/${props.pagePath}/${link.id}`}
                 // style={{ color: props.textColor }}
-                
               >
                 <button
-                  onClick={() => SetActiveButton((prev) => !prev) }
+                  onClick={() => SetActiveButton((prev) => !prev)}
                   key={link.id}
-                  className= "pageNavButton"
-                  style={{ backgroundColor: props.bgColor, color: props.textColor }}
+                  className="pageNavButton"
+                  style={{
+                    backgroundColor: props.bgColor,
+                    color: props.textColor,
+                  }}
                 >
                   {link.title}
                 </button>
