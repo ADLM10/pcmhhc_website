@@ -62,6 +62,11 @@ export const Messages = [
         proper functioning of hospital and college, so that aspirants from
         different parts of India may be attracted for learning the essence of
         Homoeopathy.
+        <b>
+          <br />
+          <br />
+          Mr. Arup Chandra
+        </b>
       </p>
     ),
   },
@@ -87,7 +92,10 @@ export const Messages = [
         classroom; we are also notably active in conducting conferences,
         workshops, seminars, guests' lectures and other co-curricular
         activities. Students are imparted an all round education so that they
-        become multi-dimensional.  Today education helps in unraveling the
+        become multi-dimensional.
+        <br />
+        <br /> 
+        Today, education helps in unraveling the
         mystery of nature. It enables us to understand and improve the working
         of our society. It creates conditions for a better life, brings out the
         capabilities to fight injustice happening in society. So we pay utmost
@@ -105,29 +113,34 @@ export const Messages = [
         <br />I hope, our College website will give a right impression of our
         institution and I extend my wholehearted wish and thanks to all the
         users of our Institution's website.
+        <b>
+          <br />
+          <br />
+          PROF.( Dr. ) Nidan Betal, D.M.S. (Cal), B.H.M.S. (Gr.), M.D. (Hom.)
+        </b>
       </p>
     ),
   },
   {
     id: "history",
-    heading: "HISTORY",
+    heading: "HISTORY OF THE INSTITUTION",
     message: (
       <p>
         Pratap Chandra Memorial Homoeopathic Hospital & College is famous by its
         short nick-name P. C. M. H. Hospital & College to students and parents.
-        It is connected by regular local bus and minibus serwces from Howrah
+        It is connected by regular local bus and minibus services from Howrah
         Sealdah and Bidhannagar Railway Station (Ultadanga) and Netaji Subhas
         Chandra Bose International Airport, Kolkata. The College was established
-        in the year 1926 by Late Dr. litendra Nath Majumder, In order to
+        in the year 1926 by Late Dr. Jitendra Nath Majumder, In order to
         commemorate the name of his illustrious father Late Dr. Pratap Chandra
-        Majumder who was one of the pioneers Homoeopath in India and popularised
+        Majumder who was one of the pioneer Homoeopaths in India and popularised
         Homoeopathy in Bengal.
         <br />
         <br />
         Dr. Jitendra Nath Majumder, founder of this Institution was the eldest
         son of Late Dr. Pratap Chandra Majumder. He was born on July 4th 1876.
         He established this Institution at first in a rented building at Mechua
-        Bazar Street, opposite of Young Men's Christian Association (YMCA)
+        Bazar Street, opposite to Young Men's Christian Association (YMCA)
         building. Later in the year 1930. the present plot of land at 14/1,
         Mahanambrata Sarani (Narkeldanga North Road), Kolkata-700011 was
         purchased by him and a temporary structure was constructed to start the
@@ -231,7 +244,7 @@ export const Messages = [
         <br />
         <br />
         The Institution is affiliated with the State Facility and Central
-        Council of Homoeopathy (CCH) Medicine, New Delhi and National Commission
+        Council of Homoeopathy(CCH), New Delhi and National Commission
         for Homoeopathy, Government of India. The College department is now
         equipped with computers in order to impart education on different
         department. The Institution is receiving recurring grants from the
