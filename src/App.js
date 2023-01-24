@@ -20,16 +20,15 @@ import CollegeDetailsComponent from "./pages/Academics/Routes/CollegeDetailsComp
 import Services from "./pages/StudentService/Routes/Services";
 import HospitalDetailsComponent from "./pages/Hospital/Routes/HospitalDetailsComponent";
 import HospitalStaff from "./pages/Hospital/Routes/HospitalStaff";
+import NoticeBoard from "./pages/NoticeBoard/NoticeBoard";
 import { HospitalDetails } from "./constants/HospitalDetails";
 import { StudentServices } from "./constants/StudentServices";
 import { CollegeDetails } from "./constants/CollegeDetails";
 import { Staffs } from "./constants/Staffs";
 import { Messages } from "./constants/Messages";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { getPhotoGallery } from "./constants/PhotoGallery";
 
 function App() {
-  getPhotoGallery();
 
   return (
     <div className="App">
@@ -44,6 +43,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/finance" element={<Finance />} />
+            <Route path="/notice-board" element={<NoticeBoard />} />
             <Route path="/seminars" element={<SeminarResearch />} />
             <Route path="/research" element={<SeminarResearch />} />
             <Route path="/photo-gallery" element={<PhotoGallery />} />

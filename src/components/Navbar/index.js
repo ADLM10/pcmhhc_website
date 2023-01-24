@@ -16,7 +16,7 @@ export const navLinks = [
     title: "Finance",
   },
   {
-    id: "notice board",
+    id: "notice-board",
     title: "Notice Board",
   },
   {

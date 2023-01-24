@@ -29,5 +29,24 @@ body {
   height: max-content;
   /* width: 80%; */
   background-color: #d9d9d9;
-  /* overflow: scroll; */
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
+
+@media screen and (max-width: 768px) {
+  .fixedHeader{
+    width: 100vw;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    height: 30vh;
+    /* background-color: aqua; */
+  }
+}
+  
+
