@@ -44,7 +44,7 @@
 
 .collegeName {
   font-family: "Inter", sans-serif;
-  font-size: 2vw ;
+  font-size: 2vw;
   color: #fec5c5;
   margin: 0;
   padding: 5px;
@@ -65,10 +65,9 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .collegeDetails {
     /* background-color: #0f0e57; */
-    width:70% ;
+    width: 70%;
     margin-right: 10px;
   }
 
@@ -86,7 +85,4 @@
     width: 60px;
     height: 60px;
   }
-  
 }
-  
-

@@ -18,8 +18,8 @@ const Header = () => {
           target="blank"
           className="collegeAddress"
         >
-          14/1, Narkeldanga North Rd (Mahanambrata Sarani), Kolkata,
-          West Bengal 700011
+          14/1, Narkeldanga North Rd (Mahanambrata Sarani), Kolkata, West Bengal
+          700011
         </a>
       </div>
     </div>

@@ -94,16 +94,15 @@ export const Messages = [
         activities. Students are imparted an all round education so that they
         become multi-dimensional.
         <br />
-        <br /> 
-        Today, education helps in unraveling the
-        mystery of nature. It enables us to understand and improve the working
-        of our society. It creates conditions for a better life, brings out the
-        capabilities to fight injustice happening in society. So we pay utmost
-        importance to teaching quality and practical training. Our academic
-        record has been outstanding since the inception of the institution.
-        Besides bagging top position in the University's Annual Examination, our
-        institution has a commendable record of very high pass percentage every
-        year.
+        <br />
+        Today, education helps in unraveling the mystery of nature. It enables
+        us to understand and improve the working of our society. It creates
+        conditions for a better life, brings out the capabilities to fight
+        injustice happening in society. So we pay utmost importance to teaching
+        quality and practical training. Our academic record has been outstanding
+        since the inception of the institution. Besides bagging top position in
+        the University's Annual Examination, our institution has a commendable
+        record of very high pass percentage every year.
         <br />
         <br />
         I am overwhelmed to have moral value-based learning from such a
@@ -244,13 +243,13 @@ export const Messages = [
         <br />
         <br />
         The Institution is affiliated with the State Facility and Central
-        Council of Homoeopathy(CCH), New Delhi and National Commission
-        for Homoeopathy, Government of India. The College department is now
-        equipped with computers in order to impart education on different
-        department. The Institution is receiving recurring grants from the
-        Government of West Bengal, Grants from Department of Indian System of
-        Medicine and Homoeopathy (ISM&H), under the Ministry of Health and
-        Family Welfare, Government of India and donation of well-wishers.
+        Council of Homoeopathy(CCH), New Delhi and National Commission for
+        Homoeopathy, Government of India. The College department is now equipped
+        with computers in order to impart education on different department. The
+        Institution is receiving recurring grants from the Government of West
+        Bengal, Grants from Department of Indian System of Medicine and
+        Homoeopathy (ISM&H), under the Ministry of Health and Family Welfare,
+        Government of India and donation of well-wishers.
       </p>
     ),
   },

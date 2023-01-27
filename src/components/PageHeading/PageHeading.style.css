@@ -11,3 +11,10 @@
   align-items: center;
   margin: 20px 0px;
 }
+
+@media screen and (max-width: 768px) {
+  .pageHeading {
+    font-size: 50px;
+    padding: 0px 20px;
+  }
+}

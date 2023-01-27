@@ -3,8 +3,20 @@ export const FinanceData = [
     heading:
       "FEES STRUCTURE OF PRATAP CHANDRA MEMORIAL HOMOEOPATHIC HOSPITAL & COLLEGE SESSION – (2022 – 23)",
     description: (
-      <p>
-        <img src={require("../assets/FeeStructure.png")} alt="FeeStructure" />
+      <p
+        className="text-fluid"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <img
+          className="img-fluid"
+          src={require("../assets/FeeStructure.png")}
+          alt="FeeStructure"
+        />
         <br />
         <b>
           N.B.: - RS. 3,00,000/- WILL BE ADDED AS COURSE FEE AGAINST PAYMENT

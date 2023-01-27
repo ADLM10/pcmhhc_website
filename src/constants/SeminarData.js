@@ -15,9 +15,9 @@ export const SeminarData = [
         }}
       >
         <img
+          className="img-fluid"
           src={require("../assets/Seminar/SeminarCalendar.png")}
           alt="SeminarCalendar"
-          style={{ width: "800px" }}
         />
         <br />
         <b>
@@ -35,6 +35,7 @@ export const SeminarData = [
     description: (
       <p style={{ display: "flex", justifyContent: "center" }}>
         <img
+          className="img-fluid"
           src={require("../assets/Seminar/Gynaecology.jpg")}
           alt="Gynaecology"
         />
@@ -46,6 +47,7 @@ export const SeminarData = [
     description: (
       <p style={{ display: "flex", justifyContent: "center" }}>
         <img
+          className="img-fluid"
           src={require("../assets/Seminar/PracticeOfMedicine.jpg")}
           alt="PracticeOfMedicine"
         />

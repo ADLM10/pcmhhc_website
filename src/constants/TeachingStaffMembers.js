@@ -99,8 +99,7 @@ export const TeachingStaffMembers = [
     DepartmentJoiningDate: "F. M. T.; 28/02/2019",
     Time: "Full Time",
     Qualification: "B.H.M.S.; M.D. (Hom.)",
-    AwardingAuthority:
-      "B.H.M.S. - C.U.; M.D. (Hom.) - (W.B.U.H.S.)",
+    AwardingAuthority: "B.H.M.S. - C.U.; M.D. (Hom.) - (W.B.U.H.S.)",
     DOB: "03.01.1980",
     RegdDetails: "27296 - 24.07.2008; Council of Homoeopathic Medicine, W.B.",
     RegdExp: "3 YRS.+",
@@ -182,8 +181,7 @@ export const TeachingStaffMembers = [
       "C. H. M.(W. B.);  DEEMED, UNIVERSITY, UDAIPUR;  M.L.T.I. KERALA",
     DOB: "06/16/1962",
     RegdDetails: "10244 - 18/07/1984; Council of Homoeopathic Medicine, W.B.",
-    RegdExp:
-      "36Yrs+ Bengal Homoeopathic Medical College & Hospital; Asansol,",
+    RegdExp: "36Yrs+ Bengal Homoeopathic Medical College & Hospital; Asansol,",
     Remarks: "",
   },
   {
@@ -193,8 +191,7 @@ export const TeachingStaffMembers = [
     DepartmentJoiningDate: "Pharmacy; 13/11/2013",
     Time: "Full Time",
     Qualification: "B.H.M.S.; M.D. (Hom.)",
-    AwardingAuthority:
-      "B.H.M.S. - C.U.; M.D. - W.B.U.H.S.",
+    AwardingAuthority: "B.H.M.S. - C.U.; M.D. - W.B.U.H.S.",
     DOB: "18.05.1978",
     RegdDetails: "25061 - 2003; COUNCIL OF HOM. MED. W.B.",
     RegdExp: "9Yrs.",
