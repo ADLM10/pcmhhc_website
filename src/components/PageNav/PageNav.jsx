@@ -16,9 +16,10 @@ const PageNav = (props) => {
       </div>
       <div className="navLinksParent">
         <ul className="navLinksList">
-          {props.navLinks.map((link) => {
+          {props.navLinks.map((link, index) => {
             return (
               <Link
+                key={index}
                 className="pageNavLink"
                 to={`/${props.pagePath}/${link.id}`}
                 // style={{ color: props.textColor }}

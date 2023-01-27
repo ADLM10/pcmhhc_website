@@ -1,50 +1,82 @@
-import React from 'react'
-import SectionContainer from '../../components/SectionContainer/SectionContainer'
-import './NoticeBoard.style.css'
-import {Notices} from '../../constants/Notices'
-
+import "./NoticeBoard.style.css";
+// import { Notices } from "../../constants/Notices";
+import { db } from "../../firebase";
+import { useState } from "react";
+import { collection, doc, getDoc, getDocs } from "firebase/firestore";
+import { useEffect } from "react";
 
 const NoticeBoard = () => {
+  const [notices, setNotices] = useState([]);
+
+  const [tenders, setTenders] = useState([]);
+
+  async function getTenders() {
+    const docRef = doc(db, "website", "tender");
+    const docSnap = await getDoc(docRef);
+    const currentYear = new Date().getFullYear();
+    if (docSnap.exists()) {
+      return docSnap.data()[currentYear];
+    } else {
+      console.log("No such document!");
+    }
+  }
+
+  async function getNotices() {
+    const docRef = doc(db, "website", "notice");
+    const docSnap = await getDoc(docRef);
+    const currentYear = new Date().getFullYear();
+    if (docSnap.exists()) {
+      return docSnap.data()[currentYear];
+    } else {
+      console.log("No such document!");
+    }
+  }
+
+  useEffect(() => {
+    getNotices()
+      .then((response) => {
+        setNotices(response);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+    getTenders().then((response) => {
+      setTenders(response);
+    });
+  }, []);
+
   return (
     <div className="notice-parent">
       <div className="notice-container">
-      <h1>
-        Notices
-      </h1>
+        <h1>Notices</h1>
         <ul className="notice-list">
-        {
-          Notices.map((notice) =>
-          notice.type === "Notice" ? (
-            <li className="notice-item">
-              <a href={notice.driveLink} target="_blank" rel="noreferrer">
-              {notice.heading}
-              </a>
-            </li>
-          ) : null
-          )
-        }
+          {notices &&
+            notices.map((notice) => (
+              <li key={notice.id} className="notice-item">
+                <a href={notice.drive_Link} target="_blank" rel="noreferrer">
+                  {notice.heading}
+                </a>
+              </li>
+            ))}
         </ul>
       </div>
       <div className="notice-container">
-      <h1>
-        Tenders
-      </h1>
+        <h1>Tenders</h1>
         <ul className="notice-list">
-        {
-          Notices.map((tender) =>
-          tender.type === "Tender" ? (
-            <li className="notice-item">
-              <a href={tender.drive} target="_blank" rel="noreferrer">
-              {tender.heading}
-              </a>
-            </li>
-          ) : null
-          )
-        }
+          {tenders &&
+            tenders.map((tender) =>
+              tender.type === "Tender" ? (
+                <li key={tender.id} className="notice-item">
+                  <a href={tender.drive_Link} target="_blank" rel="noreferrer">
+                    {tender.heading}
+                  </a>
+                </li>
+              ) : null
+            )}
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default NoticeBoard
+export default NoticeBoard;

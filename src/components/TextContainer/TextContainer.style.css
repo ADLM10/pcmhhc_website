@@ -24,3 +24,16 @@
   font-weight: 600;
   color: #0f0e57;
 }
+
+@media screen and (max-width: 768px) {
+  .text-Container {
+    margin: 20px 20px;
+  }
+  .containerHeading {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .containerDescription {
+    font-size: 0.8rem;
+  }
+}

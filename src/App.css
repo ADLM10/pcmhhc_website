@@ -34,8 +34,16 @@ body {
   overflow-y: hidden;
 }
 
+.img-fluid {
+  width: 600px;
+}
+
+.text-fluid {
+  font-family: "Inter", sans-serif;
+}
+
 @media screen and (max-width: 768px) {
-  .fixedHeader{
+  .fixedHeader {
     width: 100vw;
     overflow-x: hidden;
     position: fixed;
@@ -47,6 +55,8 @@ body {
     height: 30vh;
     /* background-color: aqua; */
   }
-}
-  
 
+  .img-fluid {
+    width: 70vw;
+  }
+}

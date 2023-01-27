@@ -12,7 +12,7 @@ const BoardTrust = () => {
           description={
             <>
               {BoardTrustMembers.map((member, index) => (
-                <span style={{ marginTop: "20px" }}>
+                <span key={index} style={{ marginTop: "20px" }}>
                   {member.id} . {member.name} -{" "}
                   <b style={{ textTransform: "uppercase" }}>{member.post}</b>
                 </span>
