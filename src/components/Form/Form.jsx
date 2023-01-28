@@ -1,11 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Form.style.css";
 
 const Form = () => {
+  const handleClick = (e) => {
+    const { name, value } = e.target;
+    setEmailDetails((prevValue) => {
+      return {
+        ...prevValue,
+        [name]: value,
+      };
+    });
+    e.preventDefault();
+  };
+
+  const [emailDetails, setEmailDetails] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
   return (
     <div className="formbold-main-wrapper">
       <div className="formbold-form-wrapper">
-        <form action="https://formbold.com/s/FORM_ID" method="POST">
+        <form>
           <div className="formbold-mb-5">
             <label for="name" className="formbold-form-label">
               {" "}
@@ -17,6 +35,8 @@ const Form = () => {
               id="name"
               placeholder="Full Name"
               className="formbold-form-input"
+              onChange={handleClick}
+              value={emailDetails.name}
             />
           </div>
 
@@ -31,6 +51,8 @@ const Form = () => {
               id="email"
               placeholder="Enter your email"
               className="formbold-form-input"
+              onChange={handleClick}
+              value={emailDetails.email}
             />
           </div>
 
@@ -45,6 +67,8 @@ const Form = () => {
               id="subject"
               placeholder="Enter your subject"
               className="formbold-form-input"
+              onChange={handleClick}
+              value={emailDetails.subject}
             />
           </div>
 
@@ -59,11 +83,27 @@ const Form = () => {
               id="message"
               placeholder="Type your message"
               className="formbold-form-input"
+              onChange={handleClick}
+              value={emailDetails.message}
             ></textarea>
           </div>
 
           <div>
-            <button className="formbold-btn">Submit</button>
+            <a
+              onClick={() => {
+                handleClick();
+                setEmailDetails({
+                  name: "",
+                  email: "",
+                  subject: "",
+                  message: "",
+                });
+              }}
+              className="formbold-btn"
+              href={`mailto:pcmhhc.enq@gmail.com?subject=${emailDetails.subject}&body=Name: ${emailDetails.name}%0D%0AEmail: ${emailDetails.email}%0D%0AMessage: ${emailDetails.message}`}
+            >
+              Send
+            </a>
           </div>
         </form>
       </div>
