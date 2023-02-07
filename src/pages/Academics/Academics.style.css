@@ -1,0 +1,115 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 72vw;
+  height: 100%;
+  /* background-color: #fff; */
+  margin-top: 20px;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+/* .card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: chartreuse;
+    padding: 10px;
+    text-align: center;
+  } */
+
+/* .card-content h3{
+    margin: 10px 0px;
+    font-size: 18px;
+    color: #04bcff;
+  }
+  
+  .card-content p{
+    word-wrap: normal;
+    margin: 10px 0px;
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .card-content a{
+    text-decoration: none;
+    margin: 10px 0px;
+    font-size: 14px;
+    color: rgb(20, 39, 203);
+  }
+  
+  .card-content a:hover{
+    text-decoration: underline;
+  } */
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  object-fit: contain;
+}
+
+.card-content span {
+  position: relative;
+
+  bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 80%;
+  /* margin-top: 20px; */
+  margin-right: 10px;
+  align-items: flex-end;
+}
+
+.card-content span img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-content span img:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+}
+
+.staff-image-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 10px;
+}

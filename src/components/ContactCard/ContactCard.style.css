@@ -1,0 +1,68 @@
+.ContactCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 30vh;
+  /* padding: 20px; */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.nameContainer {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.postContainer {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.emailContainer {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(20, 39, 203);
+  margin-bottom: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.emailContainer:hover {
+  color: rgb(20, 39, 203);
+  text-decoration: underline;
+}
+
+.phoneContainer {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(20, 39, 203);
+  margin-bottom: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.phoneContainer:hover {
+  color: rgb(20, 39, 203);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .ContactCard {
+    width: 250px;
+    height: 150px;
+  }
+}

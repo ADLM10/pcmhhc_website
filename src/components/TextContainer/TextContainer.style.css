@@ -1,0 +1,39 @@
+.text-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+  margin: 20px 40px;
+}
+
+.containerHeading {
+  text-align: center;
+  margin: 0;
+  font-family: "Alegreya", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.containerDescription {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f0e57;
+}
+
+@media screen and (max-width: 768px) {
+  .text-Container {
+    margin: 20px 20px;
+  }
+  .containerHeading {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .containerDescription {
+    font-size: 0.8rem;
+  }
+}

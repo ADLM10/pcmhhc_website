@@ -1,0 +1,13 @@
+.FinanceParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #c7a2a2;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .FinanceParent h2 {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,74 @@
+.navParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9;
+  height: 4vh;
+  margin: 5px 20px;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 98%;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+}
+
+.links {
+  font-family: "Inter", sans-serif;
+  font-size: 1vw;
+  color: black;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #0f0e57;
+  font-weight: 600;
+  /* text-decoration: underline; */
+}
+
+.listItem {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  /* margin: 0 10px; */
+}
+
+.dot {
+  width: 0.5vw;
+  height: 1vh;
+  border-radius: 50%;
+  background-color: black;
+  /* margin: 0 10px; */
+}
+
+@media screen and (max-width: 768px) {
+  .navList {
+    gap: 10px;
+    overflow-x: scroll;
+  }
+
+  .navParent {
+    height: 6vh;
+  }
+
+  .listItem {
+    width: max-content;
+  }
+
+  .listItem .links {
+    width: max-content;
+    font-size: 16px;
+  }
+
+  .listItem .dot {
+    width: 6px;
+    height: 6px;
+  }
+}
