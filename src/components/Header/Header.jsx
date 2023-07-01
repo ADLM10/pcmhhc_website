@@ -10,7 +10,7 @@ const Header = () => {
       </div>
       <div className="collegeDetails">
         <h1 className="collegeName">
-          PRATAP CHANDRA MEMORIAL HOMEOPATHIC HOSPITAL AND COLLEGE
+          PRATAP CHANDRA MEMORIAL HOMOEOPATHIC HOSPITAL AND COLLEGE
         </h1>
         <span className="line"></span>
         <a

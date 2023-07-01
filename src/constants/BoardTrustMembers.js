@@ -21,17 +21,12 @@ export const BoardTrustMembers = [
   },
   {
     id: 5,
-    name: "Dr. Manindra Kumar Biswas",
+    name: "Prof (Dr.) Labanya Bikas Mondal",
     post: "Member",
   },
   {
     id: 6,
     name: "Prof (Dr.) Nidan Betal",
     post: "Invitee Member",
-  },
-  {
-    id: 7,
-    name: "Prof (Dr.) Labanya Bikas Mondal",
-    post: "Invitee Member",
-  },
+  }
 ];
