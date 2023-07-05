@@ -204,7 +204,7 @@ export const TeachingStaffMembers = [
     DepartmentJoiningDate: "Pharmacy; 11/04/2023",
     Time: "PROBATIONAL",
     Qualification: "B.H.M.S.; M.D. (Hom.)",
-    AwardingAuthority: "B.H.M.S. - WBUHS; M.D.(Hom.) - WBUHS",
+    AwardingAuthority: "B.H.M.S. - WBUHS; M.D.(Hom.) - RGUHS",
     DOB: "13/05/1991",
     RegdDetails: "31779; COUNCIL OF HOM. MED. W.B.",
     RegdExp: "",

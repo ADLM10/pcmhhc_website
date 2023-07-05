@@ -33,19 +33,36 @@ const OPD = [
           flexDirection: "column",
         }}
       >
+        <h2>Year: 2022</h2>
         <img
           style={{ width: "900px" }}
-          src={require("../assets/OPD")}
+          src={require("../assets/OPD22.png")}
           alt="OPD"
         />
         <br />
+        <br />
+        <h2>Year: 2021</h2>
+        <img
+          style={{ width: "900px" }}
+          src={require("../assets/OPD21")}
+          alt="OPD"
+        />
+        <br />
+        <br />
+        <a
+          href="https://drive.google.com/file/d/1NE5g94iH-mAnPMRn7nMG4zatbH3f5O4t/view?usp=sharing"
+          target={"_blank"}
+          rel="noopener noreferrer"
+        >
+          Download OPD 2022{" "}
+        </a>
         <br />
         <a
           href="https://drive.google.com/file/d/16MoISCa2pkwJ-iSqIRDo_p5QwN34y6up/view?usp=sharing"
           target={"_blank"}
           rel="noopener noreferrer"
         >
-          Download OPD
+          Download OPD 2021{" "}
         </a>
       </p>
     ),
@@ -64,9 +81,18 @@ const IPD = [
           flexDirection: "column",
         }}
       >
+        <h2>Year: 2022</h2>
         <img
           style={{ width: "900px" }}
-          src={require("../assets/IPDpatients")}
+          src={require("../assets/IPDpatients22.png")}
+          alt="IPD Patients"
+        />
+        <br />
+        <br />
+        <h2>Year: 2021</h2>
+        <img
+          style={{ width: "900px" }}
+          src={require("../assets/IPDpatients21")}
           alt="IPD Patients"
         />
       </p>
@@ -83,19 +109,37 @@ const IPD = [
           flexDirection: "column",
         }}
       >
+        <h2>Year: 2022</h2>
         <img
           style={{ width: "900px" }}
-          src={require("../assets/IPDbeds")}
+          src={require("../assets/IPDbeds22.png")}
+          alt="IPD Beds"
+        />
+        <h5>GRAND TOTAL: 3212</h5>
+        <br />
+
+        <br />
+        <h2>Year: 2021</h2>
+        <img
+          style={{ width: "900px" }}
+          src={require("../assets/IPDbeds21")}
           alt="IPD Beds"
         />
         <br />
+
+        <br />
+        <a 
+          href="" 
+          target={"_blank"} rel="noopener noreferrer">
+          Download IPD 2022{" "}
+        </a>
         <br />
         <a
           href="https://drive.google.com/file/d/1WWzkaTTd54wTjn-tEVekuBVb7Cq-NwJY/view?usp=sharing"
           target={"_blank"}
           rel="noopener noreferrer"
         >
-          Download IPD{" "}
+          Download IPD 2021{" "}
         </a>
       </p>
     ),
