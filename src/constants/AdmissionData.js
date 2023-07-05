@@ -4,7 +4,7 @@ export const AdmissionData = [
     description: (
       <p>
         Admissions are made from the candidates who have qualified themselves in
-        NEST Examination and allotted through counselling done by 'Swastha
+        NEET Examination and allotted through counselling done by 'Swastha
         Bhawan' Government of West Bengal.
         <br />
         <br />

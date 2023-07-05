@@ -1,7 +1,7 @@
 export const FinanceData = [
   {
     heading:
-      "FEES STRUCTURE OF PRATAP CHANDRA MEMORIAL HOMOEOPATHIC HOSPITAL & COLLEGE SESSION – (2022 – 23)",
+      "FEES STRUCTURE OF P. C. M. HOMOEOPATHIC HOSPITAL & COLLEGE",
     description: (
       <p
         className="text-fluid"
@@ -12,25 +12,38 @@ export const FinanceData = [
           alignItems: "center",
         }}
       >
+        <h2>Session 2023-24</h2>
+        <br />
         <img
           className="img-fluid"
-          src={require("../assets/FeeStructure.png")}
+          src={require("../assets/FeeStructure23_24.jpg")}
           alt="FeeStructure"
         />
         <br />
+        <br />
         <b>
           N.B.: - RS. 3,00,000/- WILL BE ADDED AS COURSE FEE AGAINST PAYMENT
-          SEATS .<br />
-          *After the Commencement of course, no refund will be allowed.
+          SEATS .
+          <br /><br />
+          i. After the Commencement of course, no refund will be allowed.
           <br />
-          <br />
-          **Total Fees refundable excluding admission fees only after final
+          ii. Total Fees refundable excluding admission fees only after final
           counseling conducted by Swastha Bhawan.
           <br />
-          <br />
-          ***Demand Draft in favour of - P. C. M. H. Hospital & College, Payable
+          iii. Demand Draft in favour of - P. C. M. H. Hospital & College, Payable
           at Kolkata
+          <br />
+          iv. Authority reserve the right to alter the fees structure whenever
+necessary without any permission
         </b>
+        <br /><br /><br />
+        <h2>Session 2022-23</h2>
+        <img
+          className="img-fluid"
+          src={require("../assets/FeeStructure22_23.png")}
+          alt="FeeStructure"
+        />
+       
       </p>
     ),
   },
