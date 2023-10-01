@@ -34,6 +34,8 @@ const VisionMission = () => {
                 To Strive for quality education in keeping with the motto of the
                 College , “ Excellence in Education “ and prepare young minds
                 for imbibing knowledge , skill and sensitivity.
+                <br /><br />
+                <a href="https://youtu.be/cQwzvkFEI8A?si=5v-KX0sVQco5O3Ax" target="blank" >PCMHHC Overview </a>
               </p>
             }
           />
