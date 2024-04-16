@@ -147,7 +147,7 @@ export const TeachingStaffMembers = [
   {
     Name: "Dr. Nivedita Kundu",
     Photo: require("../assets/TeachingStaff/b13_1.jpg"),
-    Designation: "Lecturer / Asst. Professor, RESIGNED - JULY 2023",
+    Designation: "Lecturer / Asst. Professor, Resigned - JULY 2023",
     DepartmentJoiningDate: "Organon of Med.; 28/02/2019",
     Time: "Full Time",
     Qualification: "BHMS; MD (HOM)",
@@ -160,7 +160,7 @@ export const TeachingStaffMembers = [
   {
     Name: "Dr. PRITHA HALDER",
     Photo: require("../assets/TeachingStaff/b14_1.png"),
-    Designation: "Lecturer / Asst. Professor, RESIGNED - JULY 2023",
+    Designation: "Lecturer / Asst. Professor, Resigned - JULY 2023",
     DepartmentJoiningDate: "PATHOLOGY; 14/11/2019",
     Time: "Full Time",
     Qualification: "BHMS; MD (Hom.)",
