@@ -47,7 +47,7 @@ export const Messages = [
           LET US ALL STRIVE FOR THE ADVANCEMENT OF HOMOEOPATHY.
           <br />
           <br />
-          PROF.( Dr. ) Ranjit Chakrabarty, Ph.D(cal)
+          Prof. (Dr.) Bidhu Bhushan Jana, M.D. (Hom.)
         </b>
       </p>
     ),

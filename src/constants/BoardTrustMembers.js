@@ -1,7 +1,7 @@
 export const BoardTrustMembers = [
   {
     id: 1,
-    name: "Prof. Dr. Ranjit Chakrabarty",
+    name: "Prof. (Dr.) Bidhu Bhushan Jana",
     post: "Chairman",
   },
   {
@@ -16,7 +16,7 @@ export const BoardTrustMembers = [
   },
   {
     id: 4,
-    name: "Prof. (Dr.) Bidhu Bhushan Jana",
+    name: "Prof. Dr. Ranjit Chakrabarty",
     post: "Member",
   },
   {

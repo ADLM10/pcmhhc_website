@@ -2,7 +2,7 @@ export const LocalManagingCommitteeMembers = [
   {
     id: 1,
     description:
-      "Prof (Dr.) Ranjit Chakrabarty - Ex-officio - Chairman/President",
+      "Prof. (Dr.) Bidhu Bhushan Jana - Ex-officio - Chairman/President",
   },
   {
     id: 2,
@@ -19,14 +19,10 @@ export const LocalManagingCommitteeMembers = [
     members: [
       {
         id: "a",
-        name: "Dr. Tarun Kumar Palit",
-      },
-      {
-        id: "b",
         name: "Dr. Manindra Kumar Biswas",
       },
       {
-        id: "c",
+        id: "b",
         name: "Dr. Biswapati Mukherjee",
       },
     ],
@@ -37,15 +33,15 @@ export const LocalManagingCommitteeMembers = [
     members: [
       {
         id: "a",
-        name: "Dr. Sabyasachi Biswas",
+        name: "Dr. Ambika Saha (Kundu)",
       },
       {
         id: "b",
-        name: "Dr. Raghunath Dhara",
+        name: "Prof. (Dr.) Raghunath Dhara",
       },
       {
         id: "c",
-        name: "Dr Santanu Ghosh",
+        name: "Prof. (Dr.) Santanu Ghosh",
       },
     ],
   },
