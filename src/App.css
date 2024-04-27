@@ -60,3 +60,40 @@ body {
     width: 70vw;
   }
 }
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  /* background-color: #fff; */
+  padding: 10px;
+  text-align: center;
+}
+
+.card-content h3 {
+  margin: 10px 0px;
+  font-size: 18px;
+  color: #04bcff;
+}
+
+.card-content p {
+  word-wrap: normal;
+  margin: 10px 0px;
+  font-size: 14px;
+  color: #000;
+}
+
+.card-content a {
+  text-decoration: none;
+  margin: 10px 0px;
+  font-size: 14px;
+  color: rgb(20, 39, 203);
+}
+
+.card-content a:hover {
+  text-decoration: underline;
+}
