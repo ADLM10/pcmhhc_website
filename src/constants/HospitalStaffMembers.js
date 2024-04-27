@@ -20,7 +20,7 @@ export const HospitalStaffMembers = [
     DOB: "01/02/1959",
     Address: "2, Naba Basu Lane. K.G.Bose Sarani. Kolkata 85",
     AcademicOrganization: "Council of Hom. Medicine, W.B.",
-    Designation: "Medical Officer",
+    Designation: "Medical Officer, Retired - Jan 2024",
     Appointment: "01.06.2001",
     Department: "Hospital",
     Contact: "9830159007",
