@@ -12,7 +12,7 @@ export const TourData = [
   {
     heading: "",
     description: (
-      <p style={{ fontSize: "1.5rem" }}>
+      <p style={{ fontSize: "1.4rem" }}>
         <ul>
           <li style={{ margin: "10px" }}>
             DEPARTMENTAL TOUR, CONDUCTED BY DEPARTMENT
@@ -31,7 +31,7 @@ export const TourData = [
             {TourPhotos.map((item, index) => (
               <img
                 key={index}
-                style={{ width: "400px", margin: "10px" }}
+                style={{ width: "300px", margin: "10px" }}
                 src={item.Photo}
                 alt="sports"
               />

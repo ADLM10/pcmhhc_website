@@ -40,13 +40,30 @@ const Placements = [
 ];
 
 const AntiRaggingMembers = [
-  { Name: "Prof. (Dr.) Amitave Dhar, H.O.D, Community Medicine (Chairperson)" },
-  { Name: "Dr. Asish kr. Sasmal, Bursur, P.C.M.H.Hospital & College" },
+  { Name: "Dr. Asish kr. Sasmal, Bursur, P.C.M.H.Hospital & College (Chairperson)" },
+  { Name: "Prof. (Dr.) Amitave Dhar, Ex-H.O.D, Community Medicine" },
   { Name: "Dr. Ambika Kundu, Dept. of Pharmacy" },
-  { Name: "Dr. Mustafizur Rahaman, H.O.D, Pharmacy" },
+  { Name: "Dr. Sneha Kariwala, Dept. of Physiology" },
   { Name: "Dr. Santanu Ghsoh, H.O.D, Practice of Medicine" },
   { Name: "Dr. Asim Kumar Manna, Senior Medical Officer" },
   { Name: "Mr. Uttam Kumar Saha, Cashier (N.T.Staff)" },
+];
+
+const AntiRagMembers = [
+  { Name: "Dr. Ambika Kundu (Saha) - Chairperson " },
+  { Name: "Sumit Maity " },
+  { Name: "Sreetama Chowdhury" },
+  { Name: "Shma Perveen" },
+  { Name: "Raju Das" },
+  { Name: "Shruti Debnath" },
+];
+
+const SexHarrassmentMembers = [
+  { Name: "Dr. Gargi Kundu - Chairperson" },
+  { Name: "Prof. (Dr.) R.N.Dhara." },
+  { Name: "Prof. (Dr.) D.Kundu" },
+  { Name: "Dr. Ambika Kundu (Saha)" },
+  { Name: "Dr. Sneha Kariwala" },
 ];
 
 const AntiRaggingCommittee = [
@@ -57,7 +74,30 @@ const AntiRaggingCommittee = [
         <ul>
           {AntiRaggingMembers.map((member, index) => (
             <li
-              style={{ margin: "10px", fontSize: "1.5rem", fontWeight: "600" }}
+              style={{ margin: "10px", fontSize: "1.4rem", fontWeight: "600" }}
+              key={index}
+            >
+              {member.Name}
+            </li>
+          ))}
+        </ul>
+        <br />
+        <h2>Anti Ragging Squad Members</h2>
+        <ul>
+          {AntiRagMembers.map((member, index) => (
+            <li
+              style={{ margin: "10px", fontSize: "1.2rem", fontWeight: "400" }}
+              key={index}
+            >
+              {member.Name}
+            </li>
+          ))}
+        </ul>
+        <h2>Prevention of Sexual Harassment Committee Members</h2>
+        <ul>
+          {SexHarrassmentMembers.map((member, index) => (
+            <li
+              style={{ margin: "10px", fontSize: "1.2rem", fontWeight: "400" }}
               key={index}
             >
               {member.Name}
@@ -73,7 +113,7 @@ const Programs = [
   {
     heading: "",
     description: (
-      <p style={{ fontSize: "1.5rem" }}>
+      <p style={{ textAlign: "justify", fontSize: "1.45rem" }}>
         Under the dynamic leadership of Prof. (Dr.) Bidhu Bhushan Jana,
         Ex-Principal and supervision of the members of Board of Trustees and
         Local Managing Committee along with the sincere co-operation of the
@@ -97,7 +137,7 @@ const InternalExamination = [
   {
     heading: "",
     description: (
-      <p style={{ fontSize: "1.5rem" }}>
+      <p style={{ textAlign: "justify", fontSize: "1.45rem" }}>
         Quarterly Internal Assessment Test for all batch of student in all the
         subject will be conducted and result of the examination will published
         and will be sent to the guardian time to time.
@@ -110,7 +150,7 @@ const CommonRoom = [
   {
     heading: "",
     description: (
-      <p style={{ fontSize: "1.5rem" }}>
+      <p style={{ fontSize: "1.3rem" }}>
         The College has a big Common Room. There are arrangements for various
         Indoor games in the Common Room like Table Tennis, Carom, Chess etc.
         <br />
@@ -151,7 +191,7 @@ const StudentsUnion = [
     description: (
       <p
         style={{
-          fontSize: "1.5rem",
+          fontSize: "1.25rem",
           display: "flex",
           justifyContent: "center",
           flexDirection: "column",
@@ -167,6 +207,17 @@ const StudentsUnion = [
         developmental programme of the Institution.
         <br />
         <br />
+        <h4>Cultural Committee Members</h4>
+        <ul style={{ fontSize: "1rem",}}>
+          <li>Dr. Dipak Kar - Convenor</li>
+          <li>Dr. Sneha Kariwala</li>
+          <li>Mr. Uttam Kr. Saha</li>
+          <li>Arijit Kundu</li>
+          <li>Munazza Hassan</li>
+          <li>Sobia Naaz</li>
+          <li>Ananya Benerjee</li>
+          <li>Poulomi Chakraborty</li>
+        </ul>
         <img
           style={{ width: "800px", margin: "20px" }}
           src={require("../assets/studentUnion")}
@@ -274,49 +325,51 @@ const admittedStudents = [
 
 const campus = [
   {
-    heading: "OUR FUTURE PEARLS",
+    heading: "",
     description: (
       <p 
-      style={{width:"25%",margin:"auto"}}
+      style={{width:"60%", margin:"auto", textalign:"justify",fontWeight:"600"}}
       >
-        Welcome boys, welcome girls,
-        Welcome future homoeo-pearls.
-        The auspicious bell summons you.
+        <h3>OUR FUTURE PEARLS</h3>
+        <br/> 
+        Welcome boys, welcome girls,<br />
+        Welcome future homoeo-pearls.<br />
+        The auspicious bell summons you.<br />
         Treat the millions waiting in queue.
         <br /><br />
-        Be proud of your reverend temple
-        Where scope of learning is ample.
-        Your serious outlook, brilliant wit
+        Be proud of your reverend temple<br />
+        Where scope of learning is ample.<br />
+        Your serious outlook, brilliant wit<br />
         Lead you must to your dream-feat
         <br /><br />
-        What a peerless environment here!
+        What a peerless environment here!<br />
         Everyone is lovable, full of cheer.
-        'Ragging' is made to fling away
+        'Ragging' is made to fling away<br />
         In the abyss of The Bengal-Bay.
         <br /><br />
-        A coterie of distinguished teachers,
-        Each blended with exclusive features,
-        Will mould your desired futurity
+        A coterie of distinguished teachers,<br />
+        Each blended with exclusive features,<br />
+        Will mould your desired futurity<br />
         With utmost care and sincerity.
         <br /><br />
-        On the route of your strenuous ride,
-        Be sure of helpful advice and guide,
-        From our benevolent jovial seniors,
+        On the route of your strenuous ride,<br />
+        Be sure of helpful advice and guide,<br />
+        From our benevolent jovial seniors,<br />
         All brimmed with amiable manners.
         <br /><br />
-        The altruistic staffs take pride
-        In helping at your ardent stride.
-        To keep your esteemed-esse high,
+        The altruistic staffs take pride<br />
+        In helping at your ardent stride.<br />
+        To keep your esteemed-esse high,<br />
         Meagre earners never breathe sigh.
         <br /><br />
-        Then, after an arduous long way
-        You must be content, happy and gay.
-        A heavenly feeling in you will reign,
+        Then, after an arduous long way<br />
+        You must be content, happy and gay.<br />
+        A heavenly feeling in you will reign,<br />
         For relieving ailing men -women.
         <br /><br />
-        You may believe in almighty's power,
-        You may expect His graceful shower,
-        But the blessings of the grateful lot
+        You may believe in almighty's power,<br />
+        You may expect His graceful shower,<br />
+        But the blessings of the grateful lot<br />
         Will surely offer you a peaceful cot.
 
       </p>
