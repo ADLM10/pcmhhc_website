@@ -13,6 +13,8 @@ import AdministrativeStaff from "./pages/AboutUs/Routes/AdministrativeStaff";
 import MessageComponent from "./pages/AboutUs/Routes/MessageComponent";
 import VisionMission from "./pages/AboutUs/Routes/VisionMission";
 import EthicsCommittee from "./pages/AboutUs/Routes/EthicsCommittee";
+import SubCommittee from "./pages/AboutUs/Routes/SubCommittee";
+// import AddCommittee2 from "./pages/AboutUs/Routes/AddCommittee2";
 import UniversityOfficials from "./pages/AboutUs/Routes/UniversityOfficials";
 import Departments from "./pages/Academics/Routes/Departments";
 import DataCardComponent from "./pages/Academics/Routes/DataCardComponent";
@@ -88,7 +90,18 @@ function App() {
               path="/about-us/vision-mission"
               element={<VisionMission />}
             />
-            <Route path="/about-us/ethics-committee" element={<EthicsCommittee />} />
+            <Route 
+              path="/about-us/ethics-committee" 
+              element={<EthicsCommittee />} 
+            />
+            <Route 
+              path="/about-us/sub-committee1" 
+              element={<SubCommittee />} 
+            />
+            {/* <Route 
+              path="/about-us/add-committee2" 
+              element={<AddCommittee2 />} 
+            /> */}
             <Route
               path="/about-us/university-officials"
               element={<UniversityOfficials />}

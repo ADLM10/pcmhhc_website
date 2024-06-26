@@ -25,7 +25,7 @@ export const ResearchData = [
         protocols in the year 2022 which have been submitted to CCRH.
         <br />
         <br />
-       In 2022, the Council received  <b>1092 proposals</b> under the STSH 2022 program  
+        In 2022, the Council received  <b>1092 proposals</b> under the STSH 2022 program  
         from students of various colleges. After evaluation, 282 have been
         shortlisted under STSH 2022 for undertaking research work and submission
         of the final report. From our college <b> 8 students are shortlisted </b> under

@@ -31,27 +31,32 @@ export const SeminarData = [
     ),
   },
   {
-    heading: "Gynaecology & Obsterics",
+    heading: "",
     description: (
-      <p style={{ display: "flex", justifyContent: "center" }}>
-        <img
-          className="img-fluid"
-          src={require("../assets/Seminar/Gynaecology.jpg")}
-          alt="Gynaecology"
-        />
-      </p>
-    ),
-  },
-  {
-    heading: "Practice of Medicine",
-    description: (
-      <p style={{ display: "flex", justifyContent: "center" }}>
-        <img
-          className="img-fluid"
-          src={require("../assets/Seminar/PracticeOfMedicine.jpg")}
-          alt="PracticeOfMedicine"
-        />
-      </p>
+      <div style={{ display: "flex" }}>
+        <div style={{ width: "50%", paddingRight: "10px" }}>
+          <p style={{ display: "flex", justifyContent: "center" }}>
+            <img
+              className="img-fluid"
+              src={require("../assets/Seminar/Gynaecology.jpg")}
+              alt="Gynaecology"
+              style={{ maxWidth: "400px", height: "300px" }}
+            />
+          </p>
+          <p style={{ textAlign: "center", fontSize: "1.5rem" }}>Gynaecology & Obsterics</p>
+        </div>
+        <div style={{ width: "50%", paddingLeft: "10px" }}>
+          <p style={{ display: "flex", justifyContent: "center" }}>
+            <img
+              className="img-fluid"
+              src={require("../assets/Seminar/PracticeOfMedicine.jpg")}
+              alt="Another Image"
+              style={{ maxWidth: "400px", height: "300px" }}
+            />
+          </p>
+          <p style={{ textAlign: "center", fontSize: "1.5rem" }}>Practice of Medicine</p>
+        </div>
+      </div>
     ),
   },
 ];

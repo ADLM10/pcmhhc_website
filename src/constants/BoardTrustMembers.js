@@ -6,7 +6,7 @@ export const BoardTrustMembers = [
   },
   {
     id: 2,
-    name: "Mr. Arup Chandra",
+    name: "Prof (Dr.) Labanya Bikas Mandal",
     post: "Secretary",
   },
   {
@@ -21,7 +21,7 @@ export const BoardTrustMembers = [
   },
   {
     id: 5,
-    name: "Prof (Dr.) Labanya Bikas Mondal",
+    name: "Onkar Sadhan Adhikari - Ex-Controller C.U.",
     post: "Member",
   },
   {

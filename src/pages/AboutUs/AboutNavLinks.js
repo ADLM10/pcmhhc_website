@@ -1,24 +1,32 @@
 export const AboutNavLinks = [
   {
-    id: "board-trust-members",
-    title: "Members of board of trust",
-  },
-  {
-    id: "local-managing-committee",
-    title: "members of local managing committee",
+    id: "history",
+    title: "history",
   },
   {
     id: "administrative-staff",
     title: "administrative staff",
   },
   {
+    id: "board-trust-members",
+    title: "Members of board of trust",
+  },
+  {
+    id: "local-managing-committee",
+    title: "local managing committee",
+  },
+  {
     id: "ethics-committee",
     title: "ethics committee",
   },
   {
-    id: "university-officials",
-    title: "university officials",
+    id: "sub-committee1",
+    title: "clg. hosp. sub-committees",
   },
+  // {
+  //   id: "add-committee2",
+  //   title: "members of add committee 2",
+  // },
   {
     id: "chairman-message",
     title: "chairman message",
@@ -32,8 +40,8 @@ export const AboutNavLinks = [
     title: "principal message",
   },
   {
-    id: "history",
-    title: "history",
+    id: "university-officials",
+    title: "university officials",
   },
   {
     id: "vision-mission",
