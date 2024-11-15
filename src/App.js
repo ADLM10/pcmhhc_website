@@ -30,8 +30,48 @@ import { CollegeDetails } from "./constants/CollegeDetails";
 import { Staffs } from "./constants/Staffs";
 import { Messages } from "./constants/Messages";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { auth } from "./firebase";
+import { sendPasswordResetEmail, signInWithEmailAndPassword } from "firebase/auth";
+import { useEffect, useState } from "react";
+import Dashboard from "./pages/Dashboard/Dashboard.jsx";
 
 function App() {
+
+  const [user, setUser] = useState(null);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [isResetPasswordMode, setIsResetPasswordMode] = useState(false);
+
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((currentUser) => {
+      setUser(currentUser);
+    });
+
+    return unsubscribe;
+  }, []);
+
+
+  const handleLogin = () => {
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        setUser(userCredential.user);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
+
+  const handleResetPassword = () => {
+    sendPasswordResetEmail(auth, process.env.REACT_APP_ADMIN_USER_ID)
+      .then(() => {
+        alert('Password reset email sent. Please check your inbox.');
+        setIsResetPasswordMode(false);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
+
   return (
     <div className="App">
       <Router>
@@ -43,6 +83,53 @@ function App() {
         <div className="heroSection">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route
+              path="/dashboard"
+              element={
+                user && user.email === process.env.REACT_APP_ADMIN_USER_ID ? (
+                  <Dashboard />
+                ) : (
+                  <div className="login-container">
+                    {isResetPasswordMode ? (
+                      <div className="login-form">
+                        <input
+                          type="email"
+                          placeholder="Email"
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
+                        />
+                        <button onClick={handleResetPassword}>Reset Password</button>
+                        <button
+                          className="cancel-button"
+                          onClick={() => setIsResetPasswordMode(false)}
+                        >
+                          Cancel
+                        </button>
+                      </div>
+                    ) : (
+                      <div className="login-form">
+                        <input
+                          type="email"
+                          placeholder="Email"
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
+                        />
+                        <input
+                          type="password"
+                          placeholder="Password"
+                          value={password}
+                          onChange={(e) => setPassword(e.target.value)}
+                        />
+                        <button onClick={handleLogin}>Login</button>
+                        <button onClick={() => setIsResetPasswordMode(true)}>
+                          Forgot Password
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                )
+              }
+            />
             <Route path="/home" element={<Home />} />
             <Route path="/finance" element={<Finance />} />
             <Route path="/notice-board" element={<NoticeBoard />} />
@@ -90,13 +177,13 @@ function App() {
               path="/about-us/vision-mission"
               element={<VisionMission />}
             />
-            <Route 
-              path="/about-us/ethics-committee" 
-              element={<EthicsCommittee />} 
+            <Route
+              path="/about-us/ethics-committee"
+              element={<EthicsCommittee />}
             />
-            <Route 
-              path="/about-us/sub-committee1" 
-              element={<SubCommittee />} 
+            <Route
+              path="/about-us/sub-committee1"
+              element={<SubCommittee />}
             />
             {/* <Route 
               path="/about-us/add-committee2" 
